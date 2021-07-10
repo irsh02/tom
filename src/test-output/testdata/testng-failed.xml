@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testdata]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test dd(failed)">
+    <classes>
+      <class name="datadrivenfw.BothCorrect">
+        <methods>
+          <include name="loginWithbothCorrect"/>
+        </methods>
+      </class> <!-- datadrivenfw.BothCorrect -->
+    </classes>
+  </test> <!-- test dd(failed) -->
+</suite> <!-- Failed suite [testdata] -->

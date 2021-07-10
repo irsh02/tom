@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test cases(failed)">
+    <classes>
+      <class name="testng_learn.SuiteExample">
+        <methods>
+          <include name="openbing"/>
+          <include name="launchbrowser"/>
+          <include name="opengoogle"/>
+          <include name="openyahoo"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testng_learn.SuiteExample -->
+    </classes>
+  </test> <!-- Test cases(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

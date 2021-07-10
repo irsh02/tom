@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+	<test name="Test cases">
+	<groups>
+	<run>
+	<include name="Vivo"></include>
+	<include name="Moto"></include>
+	</run>
+	</groups>
+		<classes>
+			<class name="testng_learn.GroupingExample"></class>
+			</classes>	
+			</test>
+			</suite>
+			
+			
+			
+			<!-- <class name="testng_learn.DependenciesManagement"></class>
+			<class name="testng_learn.DriveCar"></class>
+			<class name="testng_learn.SkipaTestCase"></class> -->
