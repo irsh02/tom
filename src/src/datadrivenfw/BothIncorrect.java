@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class BothIncorrect {
 	@Test
 	@Parameters({"Username","Password"})
-	public void loginWithbothinCorrect(String uname,String pword) {
+	public void loginscenario(String uname,String pword) {
 		System.setProperty("webdriver.chrome.driver", "D:\\selinium\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
